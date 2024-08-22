@@ -1,11 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rinterio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
-    
+    <header class="max-w-screen-xl mx-auto md:pt-14 pt-10">
+        <!-- navbar section  -->
+        <nav class="flex justify-between items-center px-3">
+            <!-- logo part  -->
+            <div class="flex gap-1">
+                <div class="bg-[#ABEF5F] rounded-full p-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                    </svg>
+                </div>
+                <h1 class="text-3xl font-extrabold">Rinterio</h1>
+            </div>
+            <!-- links part  -->
+            <ul id="hide1" class="flex gap-9">
+                <li><a class="text-base text-[#494949]" href="">Home</a></li>
+                <li><a class="text-base text-[#737373]" href="">Services</a></li>
+                <li><a class="text-base text-[#737373]" href="">Portfolio</a></li>
+                <li><a class="text-base text-[#737373]" href="">Blog</a></li>
+                <li><a class="text-base text-[#737373]" href="">Contact Us</a></li>
+            </ul>
+            <!-- button part -->
+            <div id="hide2" class="flex gap-4 justify-center items-center">
+                <div class="rounded-full bg-white border border-1 p-3">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <div class="rounded-full bg-white border border-1 p-3">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <button class="flex gap-3 items-center justify-center rounded-3xl bg-[#ABEF5F] py-3 px-5 h-14 ">
+                    <h3 class="text-xl font-extrabold">Book Consult</h3>
+                    <div class="bg-black rounded-full p-2">
+                        <i class="fa-solid fa-arrow-right" style="color: #e3e3e3;"></i>
+                    </div>
+                </button>
+            </div>
+            <div class="lg:hidden p-4 rounded-full bg-white border border-1 border-gray-400">
+                <i class="fa-solid fa-bars fa-xl"></i>
+            </div>
+        </nav>
+        <!-- banner section -->
+        <div class="flex justify-center items-center mt-12 p-5">
+            <div>
+                <img class="mx-auto mb-6" src="image/banner.png" alt="">
+                <!-- text area part   -->
+                <div class="md:w-4/5 mx-auto">
+                    <h1 class="text-6xl font-extrabold text-center mb-6">A barn house of this design has a striking
+                        appearance</h1>
+                    <p class="text-base font-medium text-[#494949] text-center mb-7">The barn house captivates with its blend of rustic
+                        charm and modern sophistication, featuring weathered wood, sleek metal accents, and large
+                        windows that flood the space with natural light.</p>
+                    <button class="flex gap-3 py-3 px-6 bg-[#b3ec71b2] rounded-3xl justify-center items-center mx-auto">
+                        <h3 class="text-xl font-bold">View Details</h3>
+                        <div>
+                            <div class="bg-[#ABEF5F] rounded-full p-2">
+                                <i class="fa-solid fa-arrow-right" style="color: #000000;"></i>
+                            </div>
+                        </div>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="max-w-screen-xl mx-auto">
+
+    </main>
+    <footer>
+
+    </footer>
 </body>
+
 </html>

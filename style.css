@@ -1,0 +1,10 @@
+@media screen and (max-width: 640px) {
+    #hide, #hide2{
+        display: none;
+    }
+}
+@media screen and (max-width: 778px){
+    #hide1{
+        display: none;
+    }
+}
