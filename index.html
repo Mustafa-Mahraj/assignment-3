@@ -10,9 +10,17 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <style>
+        .manrope {
+            font-family: "Manrope";
+        }
+    </style>
 </head>
 
-<body>
+<body class="manrope">
     <header class="max-w-screen-xl mx-auto md:pt-14 pt-10">
         <!-- navbar section  -->
         <nav class="flex justify-between items-center px-3">
@@ -28,7 +36,7 @@
                 <h1 class="text-3xl font-extrabold">Rinterio</h1>
             </div>
             <!-- links part  -->
-            <ul id="hide1" class="flex gap-9">
+            <ul class="flex gap-9 hidden lg:flex">
                 <li><a class="text-base text-[#494949]" href="">Home</a></li>
                 <li><a class="text-base text-[#737373]" href="">Services</a></li>
                 <li><a class="text-base text-[#737373]" href="">Portfolio</a></li>
@@ -36,7 +44,7 @@
                 <li><a class="text-base text-[#737373]" href="">Contact Us</a></li>
             </ul>
             <!-- button part -->
-            <div id="hide2" class="flex gap-4 justify-center items-center">
+            <div class="gap-4 justify-center items-center hidden md:flex">
                 <div class="rounded-full bg-white border border-1 px-3 py-2">
                     <i class="fa-solid fa-magnifying-glass"></i>
                 </div>
@@ -79,7 +87,7 @@
         </div>
     </header>
     <main>
-        <!-- about us & Our Work  section  -->
+        <!-- about us section  -->
         <section class="bg-[#F4F4F4] pt-1 mt-28">
             <!-- about us container div  -->
             <div class="max-w-screen-xl mx-auto lg:flex mt-24">
@@ -120,6 +128,9 @@
                     <img class="mx-auto" src="image/Rectangle.png" alt="">
                 </div>
             </div>
+        </section>
+        <!-- Our Work section  -->
+         <section class="bg-gradient-to-r from-[#fff5f2] via-white to-[#fff5f2] pt-1 mt-2">
             <!-- Works Process container div  -->
             <div class="max-w-screen-xl mx-auto mt-24">
                 <!-- text area div  -->
@@ -129,7 +140,8 @@
                         <h3 class="text-base font-bold text-[#494949] ">How We Works</h3>
                     </button>
                     <h3 class="text-4xl font-bold text-center mb-5">Our Works Process</h3>
-                    <p class="text-base font-medium text-center text-[#494949] mb-6 px-2">The barn house captivates with its
+                    <p class="text-base font-medium text-center text-[#494949] mb-6 px-2">The barn house captivates with
+                        its
                         blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.
                     </p>
                 </div>
@@ -181,7 +193,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+         </section>
         <!-- Portfolio section  -->
         <section class="max-w-screen-xl mx-auto mt-24">
             <!-- text area div  -->
@@ -249,6 +261,70 @@
                 </div>
             </div>
         </section>
+        <!-- review section -->
+        <section class="bg-gradient-to-r from-[#fff5f2] via-white to-[#fff5f2] lg:pt-28 pt-20 pb-12 mt-14">
+            <!-- container div  -->
+            <div class="max-w-screen-xl mx-auto flex flex-col lg:flex-row justify-between gap-20 px-4 lg:px-0">
+                <!-- ratings part  -->
+                <div class="lg:w-2/5 md:w-5/6">
+                    <h2 class="text-4xl font-semibold mb-4">What our customers are
+                        saying us?</h2>
+                    <p class="text-base text-[#737373] mb-4">Various versions have evolved over the years, sometimes by
+                        accident, sometimes on purpose injected humour and the like.</p>
+                    <div class="flex gap-16">
+                        <div>
+                            <h3 class="text-2xl font-medium">10m+</h3>
+                            <p class="text-sm">Happy People</p>
+                        </div>
+                        <div>
+                            <h3 class="text-2xl font-medium">4.88</h3>
+                            <p class="text-sm mb-1">Overall rating</p>
+                            <img src="image/Icons/stars.png.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <!-- review text part  -->
+                <div class="lg:w-5/12 ">
+                    <div class="flex justify-between items-center mb-5">
+                        <div class="flex gap-5 items-center">
+                            <img src="image/Icons/div.avarta.png" alt="">
+                            <div>
+                                <h3 class="text-xl font-medium">Cameron Williamson</h3>
+                                <p class="text-[#737373] ">Designer</p>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="image/Icons/SVG.png" alt="">
+                        </div>
+                    </div>
+                    <p class="text-xl text-[#737373] font-medium mb-5">Searches for multiplexes, property comparisons, and the loan
+                        estimator. Works great. Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                        dores.</p>
+                    <div class="flex gap-6">
+                        <div class="bg-none rounded-full p-5 border border-1 border-gray-500 items-center">
+                            <i class="fa-solid fa-angle-left"></i>
+                        </div>
+                        <div class="bg-none rounded-full p-5 border border-1 border-gray-500">
+                            <i class="fa-solid fa-angle-right"></i>
+                        </div>
+                    </div>
+                </div>
+            </div><br><br>
+            <hr><br>
+            <!-- sponsor's part  -->
+            <div class="max-w-screen-xl mx-auto mt-8">
+                <h4 class="text-base text-[#737373] font-medium text-center mb-10">Thousands of world’s leading companies trust Space</h4>
+                <div class="grid grid-cols-2 lg:grid-cols-6 md:grid-cols-3 items-center gap-5">
+                    <img class="mx-auto" src="image/Icons/link1.png" alt="">
+                    <img class="mx-auto" src="image/Icons/link2.png" alt="">
+                    <img class="mx-auto" src="image/Icons/link3.png" alt="">
+                    <img class="mx-auto" src="image/Icons/link4.png" alt="">
+                    <img class="mx-auto" src="image/Icons/link5.png" alt="">
+                    <img class="mx-auto" src="image/Icons/link6.png" alt="">
+                </div>
+            </div>
+        </section>
         <!-- discuss project section  -->
         <section class="bg-[url(image/bg.jpg)] bg-no-repeat bg-center bg-cover">
             <!-- container div  -->
@@ -291,7 +367,7 @@
         <!-- container div  -->
         <div class="max-w-screen-xl mx-auto">
             <!-- logo & text part  -->
-             <div>
+            <div>
                 <div class="flex gap-1 mb-4 justify-center">
                     <div class="bg-[#ABEF5F] rounded-full p-2">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -302,10 +378,12 @@
                     </div>
                     <h1 class="text-3xl font-extrabold text-white">Rinterio</h1>
                 </div>
-                <p class="text-base font-semibold text-[#737373] text-center mb-11 md:w-3/6 mx-auto px-2">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
-             </div>
-             <!-- links part  -->
-             <ul class="flex flex-col md:flex-row gap-9 items-center justify-center">
+                <p class="text-base font-semibold text-[#737373] text-center mb-11 md:w-3/6 mx-auto px-2">The barn house
+                    captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek
+                    metal accents.</p>
+            </div>
+            <!-- links part  -->
+            <ul class="flex flex-col md:flex-row gap-9 items-center justify-center">
                 <li><a class="text-base text-[#E9E9E9]" href="">Home</a></li>
                 <li><a class="text-base text-[#E9E9E9]" href="">Services</a></li>
                 <li><a class="text-base text-[#E9E9E9]" href="">Portfolio</a></li>
@@ -313,12 +391,12 @@
                 <li><a class="text-base text-[#E9E9E9]" href="">Contact Us</a></li>
             </ul>
             <!-- button part  -->
-                <button class="flex items-center justify-center bg-[#ABEF5F] px-5 py-1 rounded-3xl gap-2 mt-10 mx-auto">
-                    <h3 class="text-lg font-bold ">Book Consult</h3>
-                    <div class="bg-black rounded-full px-2 py-1">
-                        <i class="fa-solid fa-arrow-right" style="color: #e3e3e3;"></i>
-                    </div>
-                </button>
+            <button class="flex items-center justify-center bg-[#ABEF5F] px-5 py-1 rounded-3xl gap-2 mt-10 mx-auto">
+                <h3 class="text-lg font-bold ">Book Consult</h3>
+                <div class="bg-black rounded-full px-2 py-1">
+                    <i class="fa-solid fa-arrow-right" style="color: #e3e3e3;"></i>
+                </div>
+            </button>
         </div>
     </footer>
 </body>
